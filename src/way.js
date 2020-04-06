@@ -201,7 +201,7 @@
       },
       INPUT: function() {
         var type = w.dom(element).type();
-        if (_w.contains(['text', 'password'], type)) {
+        if (_w.contains(['text', 'password','number'], type)) {
           return w.dom(element).val();
         }
         if (_w.contains(['checkbox', 'radio'], type)) {
